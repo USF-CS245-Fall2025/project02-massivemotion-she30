@@ -6,7 +6,7 @@ This project implements a simple 2D celestial simulation using Java Swing and fo
 
 ---
 
-## 📽 Demo Video (Required)
+## Demo Video (Required)
 Demo Video: (will be uploaded)
 
 ---
@@ -104,4 +104,5 @@ star_velocity_x = 0
 star_velocity_y = 0
 ✔ Missing Javadoc (Professor Requirement)
 Some methods still need Javadoc-style comments.
-I will add them in the source files as required.
+I will add them in the source files as required.This must be done inside the directory that contains MassiveMotion.java, ListFactory.java, and all list implementation files.
+
