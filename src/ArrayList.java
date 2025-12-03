@@ -38,12 +38,15 @@ public class ArrayList<T> implements List<T> {
      * This ensures amortized O(1) performance for append operations.
      */
     private void growIfNeeded() {
-        if (n >= data.length) {
-            Object[] nd = new Object[Math.max(1, data.length * 2)];
-            for (int i = 0; i < n; i++) nd[i] = data[i];
-            data = nd;
+    if (n >= data.length) {
+        Object[] nd = new Object[data.length * 2];
+        for (int i = 0; i < n; i++) {
+            nd[i] = data[i];
         }
+        data = nd;
     }
+}
+
 
     /**
      * Checks that an index is within 0..n (inclusive)
